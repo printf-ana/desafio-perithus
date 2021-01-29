@@ -1,0 +1,62 @@
+.primeiroTitulo {
+    margin-top: 50px
+}
+
+.title {
+    font-family: 'Lalezar', cursive;
+    font-size: 90px;
+    color: #074680;
+    margin-left: 50px
+}
+
+.line {
+    width: 325px;
+    border: 3px solid #074680;
+    margin-left: 0
+}
+
+.subTitle {
+    font-family: 'Niramit', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-top: 3px
+}
+
+.divSecoes {
+    margin-top: 200px
+}
+
+.titleSecoes {
+    flex: 1;
+    display: inline-flex
+}
+
+@media only screen and (max-width: 988px) {
+    .title {
+        font-family: 'Lalezar', cursive;
+        font-size: 22px;
+        color: #074680;
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: -5px
+    }
+    .line {
+        display: none
+    }
+    .subTitle {
+        font-family: 'Niramit', sans-serif;
+        font-size: 14px;
+        text-align: center;
+        margin-right: 50px;
+        margin-left: 50px;
+        font-weight: 300
+    }
+    .divSecoes {
+        margin-top: 120px
+    }
+    .titleSecoes {
+        flex: auto;
+        display: block
+    }
+}

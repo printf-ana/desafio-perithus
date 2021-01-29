@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.png" />
+    <title>
+        Perithus Technologies
+    </title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170460746-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-170460746-1');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Ads: 451739834 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-451739834"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-451739834');
+    </script>
+
+    <!--ícones-->
+    <link href="./fontawesome/fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--fontes-->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Niramit&display=swap" rel="stylesheet">
+
+    <!--Arquivos css-->
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '139937337853771');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=139937337853771&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+
+    <!--Body start-->
+    <div>
+
+        <!--Header start-->
+        <div class="divBanner">
+            <nav class="navbar navbar-expand-lg"
+                style="margin-top: -10px; margin-top: -10px; display: flex; justify-content: space-between;">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/logo.png" alt="Logo da Perithus" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false"
+                    aria-label="Alterna navegação" onclick="toogleText()">
+                    <i class="fas fa-bars fa-2x iconMenu" style="color:#FFB000;"></i>
+                    <i class="fas fa-bars iconMenu2" style="color:#FFB000;"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="conteudoNavbarSuportado">
+                    <div class="containerMenu">
+                        <ul class="navbar-nav  justify-content-end" style="margin-bottom: 40px;">
+                            <li class="nav-item" style="margin-right: 20px;">
+                                <a class="nav-link active btnNavActions" href="./index.html"
+                                    style="color:#FFB000;">Home</a>
+                            </li>
+                            <li class="nav-item" style="margin-right: 20px;">
+                                <a class="nav-link btnNavActions" href="./pages/equipe.html">
+                                    Sobre nós
+                                </a>
+                            </li>
+                            <li class="nav-item" style="margin-right: 20px;">
+                                <a class="nav-link btnNavActions" href="./pages/servicos.html">
+                                    Serviços
+                                </a>
+                            </li>
+                            <li class="nav-item" style="margin-right: 20px;">
+                                <a class="nav-link btnNavActions" href="./pages/carreiras.html">
+                                    Carreiras
+                                </a>
+                            </li>
+                            <li class="nav-item" style="margin-right: 50px;">
+                                <a class="nav-link btnNavActions" href="./pages/contato.html">
+                                    Contato
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="textBanner">
+                <div class="divTextBanner">
+                    <p class="text-white titleBanner">
+                        CRIE SEU APLICATIVO EM
+                    </p>
+                    <p class="text-white titleBanner">
+                        POUCAS SEMANAS!
+                    </p>
+
+                    <p class="text-white subTitleBanner text-justify">
+                        ENTREGAMOS SEU APLICATIVO OU PLATAFORMA EM SEMANAS
+                    </p>
+                    <p class="text-white subTitleBanner text-justify" style="margin-top: -1rem;">
+                        E ATÉ 10 VEZES MAIS BARATO COM A MÁXIMA QUALIDADE!
+                    </p>
+                </div>
+
+                <div class="divSaibaMaisBanner mx-auto">
+                    <p class="textSaibaMaisBanner text-white">
+                        NÃO PERCA TEMPO!
+                    </p>
+
+                    <button class="btn btn-warning btnSaibaMais btnBodyActions"
+                        onclick="window.location.href='../pages/servicos.html'">
+                        SAIBA MAIS
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--Header end-->
+
+        <!--Section Vantagem start-->
+        <div>
+            <p class="title primeiroTitulo">
+                VANTAGENS
+            </p>
+            <div style="flex: 1; display: inline-flex;">
+                <div>
+                    <hr class="line" />
+                </div>
+                <div>
+                    <p class="subTitle"> POR QUE SOMOS A MELHOR SOLUÇÃO PARA SUA EMPRESA? </p>
+                </div>
+            </div>
+
+            <div class="divVantagens">
+                <div class="divVantagem">
+                    <div class="divImgTitleVantagem">
+                        <div class="divImgVantagem">
+                            <img src="./assets/custoXbeneficio.png" alt="Imagem para representar Custo e Benefício"
+                                class="imgVantagem">
+                        </div>
+                        <div class="divTitleVantagem">
+                            <p class="textTitleVantegem"> CUSTO BENEFÍCIO </p>
+                        </div>
+                    </div>
+                    <div class="divDescVantegem alt alt2">
+                        <p class="textDescVantegem">
+                            Não perdemos negócio! Crie seu projeto com uma redução de <b>até 10 vezes</b> no custo!
+                        </p>
+                    </div>
+                </div>
+                <div class="divVantagem">
+                    <div class="divImgTitleVantagem">
+                        <div class="divImgVantagem">
+                            <img src="./assets/velocidade.png" alt="Imagem para representar Velocidade"
+                                class="imgVantagem">
+                        </div>
+                        <div class="divTitleVantagem">
+                            <p class="textTitleVantegem"> VELOCIDADE </p>
+                        </div>
+                    </div>
+                    <div class="divDescVantegem alt">
+                        <p class="textDescVantegem">
+                            Nosso time pode construir o sistema que você precisa <b>em semanas</b> (ao invés de meses).
+                        </p>
+                    </div>
+                </div>
+                <div class="divVantagem">
+                    <div class="divImgTitleVantagem">
+                        <div class="divImgVantagem">
+                            <img src="./assets/estabilidade.png" alt="Imagem para representar Estabilidade"
+                                class="imgVantagem">
+                        </div>
+                        <div class="divTitleVantagem">
+                            <p class="textTitleVantegem"> ESTABILIDADE </p>
+                        </div>
+                    </div>
+                    <div class="divDescVantegem">
+                        <p class="textDescVantegem alt3">
+                            Nossa garantia de satisfação cobre 15 dias após a entrega do projeto e temos uma das maiores
+                            taxas de aprovação do mercado: <b>98,6%</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Section Vantagem end-->
+
+        <!--Section Sua Ideia start-->
+        <div class="divSecoes">
+            <p class="title" style="margin-bottom: -5px;">
+                SUA IDEIA,
+            </p>
+            <p class="title">
+                NOSSA EXPERTISE!
+            </p>
+            <div class="titleSecoes">
+                <div>
+                    <hr class="line" />
+                </div>
+                <div>
+                    <p class="subTitle">
+                        DESENVOLVEMOS SUA IDEIA COM AGILIDADE, A MELHOR EXPERIÊNCIA E PREÇO IMBATÍVEL
+                    </p>
+                </div>
+            </div>
+            <div class="divBackgroundSuaIdeia">
+                <div class="suaIdeia1">
+                    <div class="divSuaIdeia">
+                        <div style="flex-direction: row; display: flex;">
+                            <img src="./assets/consultoria.png" alt="" class="imgConsultoria">
+                            <div class="flip-container" style="width: 335px; margin-top: -75px; height: 250px;">
+                                <div class="flipper">
+                                    <div class="cardSuaIdeiaBorda front">
+                                        <p class="text-white textSuaIdeiaCard">CONSULTORIA ESPECIALIZADA</p>
+                                    </div>
+
+                                    <div class="cardSuaIdeiaBorda back">
+                                        <p class="text-white textSuaIdeiaCard">Nossa equipe de consultores especialistas
+                                            desenha a solução mais apropriada para seu cenário e necessidades.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flip-container"
+                                style="width: 395px; margin-top: -75px; height: 220px; margin-right: 0px; margin-left: 30px;">
+                                <div class="flipper">
+                                    <div class="cardSuaIdeiaBorda front">
+                                        <p class="text-white textSuaIdeiaCard">MELHOR EXPERIÊNCIA</p>
+                                    </div>
+
+                                    <div class="cardSuaIdeiaBorda back">
+                                        <p class="text-white textSuaIdeiaCard">Aplicamos as metodologias LEAN, Growth
+                                            Driven Design e Agile para entregar mais valor para você!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="divSuaIdeia">
+                        <img src="./assets/ideiaWeb.png" alt="" style="align-self: start;">
+                        <div class="subDivSuaIdeia">
+                            <img src="./assets/experiencia.png" alt="" class="imgExperiencia">
+                            <img src="./assets/suporte.png" alt="" class="imgSuporte">
+                            <img src="./assets/desenvolvimento.png" alt="" class="imgDesenvolvimento">
+                            <div class="flip-container"
+                                style="width: 425px; height: 170px; margin-left: 15px; margin-top: 5px;">
+                                <div class="flipper">
+                                    <div class="cardSuaIdeiaBorda front">
+                                        <p class="text-white textSuaIdeiaCard">DESENVOLVIMENTO SOB MEDIDA</p>
+                                    </div>
+
+                                    <div class="cardSuaIdeiaBorda back">
+                                        <p class="text-white textSuaIdeiaCard">Criamos aplicativos móveis, sistemas e
+                                            produtos mínimos viáveis do jeito que você quer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex; margin-bottom: 50px;">
+                            <div class="flip-container" style="width: 395px; height: 270px;">
+                                <div class="flipper">
+                                    <div class="cardSuaIdeiaBorda front">
+                                        <p class="text-white textSuaIdeiaCard">O MELHOR SUPORTE</p>
+                                    </div>
+
+                                    <div class="cardSuaIdeiaBorda back">
+                                        <p class="text-white textSuaIdeiaCard">Longas filas de espera, chamados não
+                                            resolvidos e muito stress? Aqui não!
+                                            Nosso suporte é pensado para te atender de forma ágil e prática.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-warning btnQuantoCusta btnBodyActions"
+                                onclick="window.location.href=`https://api.whatsapp.com/send?phone=551130429855&text=Quero%20falar%20com%20um%20especialista!`">
+                                VEJA QUANTO CUSTA
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="carouselSuaIdeia" class="carousel slide suaIdeia2" data-ride="carousel" data-interval="0">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <p class=" text-white titleSuaIdeia">
+                                CONSULTORIA ESPECIALIZADA
+                            </p>
+                            <div style="background-image: url(./assets/ideiaMobile.png); background-size: 100%;"
+                                class="imgSuaIdeia2">
+                                <p class="textSuaIdeia" style="padding-top: 45px;">
+                                    Nossa equipe de consultores
+                                    especialistas desenha a
+                                    solução mais apropriada
+                                    para seu cenário e
+                                    necessidades.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <p class=" text-white titleSuaIdeia">
+                                MELHOR EXPERIÊNCIA
+                            </p>
+                            <div style="background-image: url(./assets/ideiaMobile.png); background-size: 100%;"
+                                class="imgSuaIdeia2">
+                                <p class="textSuaIdeia" style="padding-top: 45px;">
+                                    Aplicamos as metodologias LEAN, Growth Driven Design e Agile para entregar mais
+                                    valor para você!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <p class=" text-white titleSuaIdeia">
+                                O MELHOR SUPORTE
+                            </p>
+                            <div style="background-image: url(./assets/ideiaMobile.png); background-size: 100%;"
+                                class="imgSuaIdeia2">
+                                <p class="textSuaIdeia"
+                                    style="padding-top: 30px; padding-left: 5px; padding-right: 5px;">
+                                    Longas filas de espera, chamados não resolvidos e muito stress? Aqui não!
+                                    Nosso suporte é pensado para te atender de forma ágil e prática.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <p class=" text-white titleSuaIdeia">
+                                DESENVOLVIMENTO SOB MEDIDA
+                            </p>
+                            <div style="background-image: url(./assets/ideiaMobile.png); background-size: 100%;"
+                                class="imgSuaIdeia2">
+                                <p class="textSuaIdeia" style="padding-top: 55px;">
+                                    Criamos aplicativos móveis, sistemas e produtos mínimos viáveis do jeito que você
+                                    quer.
+                                </p>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center;">
+                            <button class="btn btn-warning btnQuantoCusta btnBodyActions" style="margin-bottom: 20px;"
+                                onclick="window.location.href=`https://api.whatsapp.com/send?phone=551130429855&text=Quero%20falar%20com%20um%20especialista!`">
+                                VEJA QUANTO CUSTA
+                            </button>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselSuaIdeia" aria-label="Anterior" role="button"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselSuaIdeia" aria-label="Próximo" role="button"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--Section Sua Ideia end-->
+
+        <!--Section Nossos Parceiros start-->
+        <div class="divSecoes">
+            <p class="title">
+                NOSSOS PARCEIROS
+            </p>
+            <div class="titleSecoes">
+                <div>
+                    <hr class="line" />
+                </div>
+                <div>
+                    <p class="subTitle"> A PERITHUS TRABALHA COM </p>
+                </div>
+            </div>
+            <br />
+            <div class="divParceiros1">
+                <div>
+                    <img src="./assets/black2code.png" alt="">
+                </div>
+                <div>
+                    <img src="./assets/sincro.png" alt="">
+                </div>
+            </div>
+
+            <div id="carouselParceiros" class="carousel slide divParceiros2" data-ride="carousel" data-interval="0"
+                style="margin-top: 50px;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="text-align: center;">
+                        <img src="./assets/black2code.png" style="width: 70%;">
+                    </div>
+                    <div class="carousel-item" style="text-align: center;">
+                        <img src="./assets/sincro.png" style="width: 70%;">
+                    </div>
+                    <a class="carousel-control-prev" aria-label="Anterior" href="#carouselParceiros" role="button"
+                        data-slide="prev">
+                        <i class="fas fa-chevron-circle-left fa-2x" style="color: black;"></i>
+                    </a>
+                    <a class="carousel-control-next" aria-label="Próximo" href="#carouselParceiros" role="button"
+                        data-slide="next">
+                        <i class="fas fa-chevron-circle-right fa-2x" style="color: black;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--Section Nossos Parceiros end-->
+
+        <!--Section Depoimentos start-->
+        <div class="divSecoes">
+            <p class="title">
+                DEPOIMENTOS
+            </p>
+            <div class="titleSecoes">
+                <div>
+                    <hr class="line" />
+                </div>
+                <div>
+                    <p class="subTitle"> O QUE FALAM DA PERITHUS... </p>
+                </div>
+            </div>
+            <br />
+            <div class="divDepoimentosGroup1">
+                <div id="carouselDepoimentos1" class="carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselDepoimentos1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselDepoimentos1" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="5000">
+                            <div class="divDepoimentosInLine">
+                                <div class="divDepoimento">
+                                    <img src="./assets/alexandre.jpeg" alt="Foto da pessoa que deu o depoimento"
+                                        style="height: 400px;">
+                                    <div class="divTextDepoimentos">
+                                        <p class="textDepoimentos">
+                                            "A Perithus Technologies é nossa parceira de Tecnologia. Confio no trabalho
+                                            da
+                                            equipe!
+                                            Eles sempre buscam a excelência."
+                                        </p>
+                                        <p class="textSendDepoimentos" style="padding-top: 5px;">
+                                            Alexandre Ramin - Diretor Executivo da MRI Services
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="divDepoimento">
+                                    <img src="./assets/juliana.jpeg" alt="Foto da pessoa que deu o depoimento"
+                                        style="height: 400px;">
+                                    <div class="divTextDepoimentos">
+                                        <p class="textDepoimentos">
+                                            "Eu sempre trabalho com muitos produtos e variações. A Perithus trouxe uma
+                                            otimização
+                                            das
+                                            minhas vendas no dia a dia e me permitiu ficar mais próxima dos meus
+                                            clientes
+                                            com
+                                            minha
+                                            loja virtual."
+                                        </p>
+                                        <p class="textSendDepoimentos" style="padding-top: 5px;">
+                                            Juliana Vilaça - Proprietária da Beeju Arte em Colar
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="divDepoimento">
+                                    <img src="./assets/raphael.jpg" alt="Foto da pessoa que deu o depoimento"
+                                        style="height: 400px;">
+                                    <div class="divTextDepoimentos">
+                                        <p class="textDepoimentos">
+                                            "A Perithus é mais que uma prestadora de serviço no desenvolvimento de
+                                            soluções
+                                            tecnológicas
+                                            pra nós, sentimos que fazem parte do nosso time de fato, profissionais de
+                                            excelente
+                                            qualidade e extremamente focados na entrega dos resultados que esperamos."
+                                        </p>
+                                        <p class="textSendDepoimentos">
+                                            Raphael Pagarim - CFO da Black2Code
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="5000">
+                            <div class="divDepoimentosInLine">
+                                <div class="divDepoimento">
+                                    <img src="./assets/bruno.jpg" alt="Foto da pessoa que deu o depoimento"
+                                        style="height: 400px;">
+                                    <div class="divTextDepoimentos">
+                                        <p class="textDepoimentos">
+                                            "Desde quando comecei a trabalhar com a Perithus, ela se mostrou uma empresa
+                                            competente e confiável. A Perithus me ajudou principalmente a organizar
+                                            minhas idéias de negócio, e a trilhar um caminho correto, conseguindo
+                                            compreender tudo com muita agilidade e profissionalismo."
+                                        </p>
+                                        <p class="textSendDepoimentos" style="padding-top: 5px;">
+                                            Bruno Zequini - CEO da SmartChange
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="divDepoimento">
+                                    <img src="./assets/flavio.jpg" alt="Foto da pessoa que deu o depoimento"
+                                        style="height: 400px;">
+                                    <div class="divTextDepoimentos">
+                                        <p class="textDepoimentos">
+                                            "A Perithus definitivamente, colocou nosso barco na água! Rapidamente,
+                                            entendeu nosso projeto e cumpriu com os prazos. Solucionar problemas de
+                                            tecnologia faz parte do dia a dia e fazer isso conforme a necessidade e
+                                            condições de cada negócio é essencial para transformar clientes em
+                                            parceiros. Vale apontar positivamente a organização da estrutura de trabalho
+                                            e dos colaboradores. É como ter minha própria equipe de desenvolvimento!"
+                                        </p>
+                                        <p class="textSendDepoimentos" style="padding-top: 5px;">
+                                            Flávio Pioker - CEO da MyVibes
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="divDepoimento">
+                                    <iframe width="100%" height="400"
+                                        src="https://www.youtube.com/embed/96xD0qHxjvI?controls=0" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                    <div class="divTextDepoimentos">
+                                        <p class="textDepoimentos">
+                                            Raef Khalsa's Testimonial about Perithus Technologies
+                                        </p>
+                                        <p class="textSendDepoimentos" style="padding-top: 5px;">
+                                            Raef Khalsa's - CEO Verse Content
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="carouselDepoimentos" class="carousel slide divDepoimentosGroup2" data-ride="carousel"
+                data-interval="0">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="5000">
+                        <div class="divDepoimento">
+                            <img src="./assets/alexandre.png" alt="" style="width: 60%;">
+                            <div class="divTextDepoimentos">
+                                <p class="textDepoimentos">
+                                    "A Perithus Technologies é nossa parceira de Tecnologia. Confio no trabalho
+                                    da equipe!
+                                    Eles sempre buscam a excelência."
+                                </p>
+                                <p class="textSendDepoimentos" style="padding-top: 5px;">
+                                    Alexandre Ramin - Diretor Executivo da MRI Services
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="5000">
+                        <div class="divDepoimento">
+                            <img src="./assets/juliana.png" alt="" style="width: 60%;">
+                            <div class="divTextDepoimentos">
+                                <p class="textDepoimentos">
+                                    "Eu sempre trabalho com muitos produtos e variações. A Perithus trouxe uma
+                                    otimização das
+                                    minhas vendas e dia a dia e me permitiu ficar mais próxima dos meus clientes com
+                                    minha loja virtual."
+                                </p>
+                                <p class="textSendDepoimentos" style="padding-top: 5px;">
+                                    Juliana Vilaça - Proprietária da Beeju Arte em Colar
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="5000">
+                        <div class="divDepoimento">
+                            <img src="./assets/raphael.jpg" alt="" style="width: 60%;">
+                            <div class="divTextDepoimentos">
+                                <p class="textDepoimentos">
+                                    "A Perithus é mais que uma prestadora de serviço no desenvolvimento de soluções
+                                    tecnológicas pra nós, sentimos que fazem parte do nosso time de fato, profissionais
+                                    de excelente qualidade e extremamente focados na entrega dos resultados que
+                                    esperamos."
+                                </p>
+                                <p class="textSendDepoimentos" style="padding-top: 5px;">
+                                    Raphael Pagarim - CFO da Black2Code
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="5000">
+                        <div class="divDepoimento">
+                            <img src="./assets/bruno.jpg" alt="" style="width: 60%;">
+                            <div class="divTextDepoimentos">
+                                <p class="textDepoimentos">
+                                    "Desde quando comecei a trabalhar com a Perithus, ela se mostrou uma empresa
+                                    competente e confiável. A Perithus me ajudou principalmente a organizar
+                                    minhas idéias de negócio, e a trilhar um caminho correto, conseguindo
+                                    compreender tudo com muita agilidade e profissionalismo."
+                                </p>
+                                <p class="textSendDepoimentos" style="padding-top: 5px;">
+                                    Bruno Zequini - CEO da SmartChange
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="5000">
+                        <div class="divDepoimento">
+                            <img src="./assets/flavio.jpg" alt="" style="width: 60%;">
+                            <div class="divTextDepoimentos">
+                                <p class="textDepoimentos">
+                                    "A Perithus definitivamente, colocou nosso barco na água! Rapidamente, entendeu
+                                    nosso projeto e cumpriu com os prazos. Solucionar problemas de tecnologia faz parte
+                                    do dia a dia e fazer isso conforme a necessidade e condições de cada negócio é
+                                    essencial para transformar clientes em parceiros. Vale apontar positivamente a
+                                    organização da estrutura de trabalho e dos colaboradores. É como ter minha própria
+                                    equipe de dev!"
+                                </p>
+                                <p class="textSendDepoimentos" style="padding-top: 5px;">
+                                    Flávio Pioker - CEO da MyVibes
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="5000">
+                        <div class="divDepoimento">
+                            <iframe width="270" height="225" src="https://www.youtube.com/embed/96xD0qHxjvI?controls=0"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <div class="divTextDepoimentos">
+                                <p class="textDepoimentos">
+                                    Raef Khalsa's Testimonial about Perithus Technologies
+                                </p>
+                                <p class="textSendDepoimentos" style="padding-top: 5px;">
+                                    Raef Khalsa's - CEO Verse Content
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" aria-label="Anterior" href="#carouselDepoimentos" role="button"
+                    data-slide="prev">
+                    <i class="fas fa-chevron-circle-left fa-2x" style="color: black;"></i>
+                </a>
+                <a class="carousel-control-next" aria-label="Próximo" href="#carouselDepoimentos" role="button"
+                    data-slide="next">
+                    <i class="fas fa-chevron-circle-right fa-2x" style="color: black;"></i>
+                </a>
+            </div>
+        </div>
+        <!--Section Depoimentos end-->
+
+    </div>
+    <!--Body end-->
+
+    <!--Footer start-->
+    <div class="divFooter" style="background-image: url(./assets/footer.png);">
+        <div class="divConteudoFooter">
+            <address class="primeiroConteudoFooter">
+                <img src="./assets/logo.png" alt="" class="logoFooter">
+                <p class="text-white textFooter">
+                    AVENIDA PAULISTA, 171 - 4 ANDAR
+                </p>
+                <p class="text-white textFooter">
+                    BELA VISTA - SÃO PAULO - SP
+                </p>
+            </address>
+
+
+            <div class="containerSecund">
+                <p class="text-white textFooterSecund">
+                    ESCOLHA COMO QUER SER ATENDIDO
+                </p>
+                <div class="segundoConteudoFooter">
+                    <a href="https://api.whatsapp.com/send?phone=551130429855" style="text-decoration: none;">
+                        <i class="fab fa-whatsapp fa-3x" style="color:#FFF; margin-right: 50px;"></i>
+                    </a>
+                    <a href="https://www.facebook.com/PerithusTech/" style="text-decoration: none;">
+                        <i class="fab fa-facebook-f fa-3x" style="color:#FFF; margin-right: 50px;"></i>
+                    </a>
+                    <a href="https://www.instagram.com/perithus_tech/?hl=pt-br" style="text-decoration: none;">
+                        <i class="fab fa-instagram fa-3x" style="color:#FFF; margin-right: 50px;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/perithus-tech" style="text-decoration: none;">
+                        <i class="fab fa-linkedin-in fa-3x" style="color:#FFF;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--Footer end-->
+
+        <!--Plugins-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+        <script>
+            var textBanner = document.getElementById("textBanner");
+            async function toogleText() {
+                if (textBanner.style.display === "none") {
+                    setTimeout(function () { textBanner.style.display = "block"; }, 300)
+                } else {
+                    textBanner.style.display = "none";
+                }
+            }
+            function show() {
+
+            }
+        </script>
+
+</body>
+
+</html>

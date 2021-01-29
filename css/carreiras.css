@@ -1,0 +1,250 @@
+.divTextBanner {
+    margin-right: 50px;
+    margin-left: 100px;
+    padding-bottom: 100px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.title1Banner {
+    font-family: 'Lalezar', cursive;
+    font-size: 80px;
+    margin-bottom: 0;
+    margin-left: -250px
+}
+
+.title2Banner {
+    font-family: 'Lalezar', cursive;
+    font-size: 80px;
+    margin-bottom: 0;
+    margin-left: 350px
+}
+
+.divSecao {
+    display: flex;
+    flex-direction: row;
+    margin: 80px;
+    margin-top: 150px;
+    justify-content: space-between
+}
+
+.divSubText {
+    margin-right: 30px
+}
+
+.titleSecao {
+    font-weight: 700;
+    font-family: 'Niramit', sans-serif;
+    font-size: 30px
+}
+
+.textSubTitle {
+    font-family: 'Lalezar', cursive;
+    font-size: 27px;
+    color: #FFB000
+}
+
+.textDescPerithus {
+    font-family: 'Niramit', sans-serif;
+    font-size: 22px
+}
+
+.imgPerithus {
+    height: 400px;
+    align-self: center
+}
+
+.divLinePalavras {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 50px 200px
+}
+
+.divColuna {
+    display: flex;
+    flex-direction: column
+}
+
+.divDiscursion {
+    max-width: 50%
+}
+
+.imgAbreAspas {
+    align-self: flex-start
+}
+
+.textDescPalavra {
+    font-family: 'Niramit', sans-serif;
+    font-size: 22px;
+    margin: 30px 50px
+}
+
+.imgFechaAspas {
+    align-self: flex-end
+}
+
+.divLineVaga {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px
+}
+
+.textSubTitleVaga {
+    font-family: 'Lalezar', cursive;
+    font-size: 60.5px;
+    color: #FFB000
+}
+
+.divVaga {
+    border: 2px solid #434F81;
+    padding-top: 30px;
+    align-self: flex-start;
+    width: 346px;
+    height: 212px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.textVaga {
+    font-family: 'Niramit', sans-serif;
+    font-size: 27px;
+    margin: 0 20px
+}
+
+.divMeCandidatar {
+    padding: 20px;
+    background-color: #434F81;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    font-family: 'Niramit', sans-serif;
+    font-size: 18px;
+    font-weight: 700
+}
+
+.textMeCandidatar {
+    text-decoration: underline;
+    align-self: center;
+    margin-bottom: 0
+}
+
+.divMeCandidatar:hover {
+    color: #FFB000;
+    text-decoration: none
+}
+
+.divVaga a:visited {
+    color: #FFB000
+}
+
+.btnFaleConosco {
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #FFFDFD;
+    font-weight: 600;
+    background-color: #F9AF1B;
+    align-self: flex-end
+}
+
+.btnBodyActions:hover {
+    background-color: #FFDC97!important;
+    border-color: #FFDC97!important
+}
+
+.btnBodyActions:active {
+    background-color: #B07D17!important
+}
+
+@media only screen and (max-width: 988px) {
+    .divBanner {
+        height: 350px;
+    }
+    .navbar-mobile {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0))
+    }
+    .divTextBanner {
+        padding-bottom: 5px;
+        margin-top: 30px;
+        text-align: -webkit-center
+    }
+    .title1Banner {
+        font-size: 22px;
+        margin-bottom: -8px;
+        margin-left: -80px;
+        width: fit-content
+    }
+    .title2Banner {
+        font-size: 22px;
+        margin-bottom: -8px;
+        margin-left: 80px;
+        width: fit-content
+    }
+    .divSecao {
+        flex-direction: column;
+        margin: 10px;
+        margin-top: 50px;
+        justify-content: unset
+    }
+    .divSubText {
+        margin-left: 10px;
+        margin-right: 10px
+    }
+    .titleSecao {
+        font-size: 18px;
+        margin-top: 100px
+    }
+    .textSubTitle {
+        font-size: 28px
+    }
+    .textDescPerithus {
+        font-size: 16px
+    }
+    .imgPerithus {
+        height: 220px;
+        align-self: center
+    }
+    .divLinePalavras {
+        flex-direction: column;
+        margin: 0 10px
+    }
+    .divDiscursion {
+        width: 100%;
+        max-width: inherit
+    }
+    .textDescPalavra {
+        margin: 30px 20px;
+        font-size: 16px
+    }
+    .imgAbreAspas {
+        margin-top: 50px;
+        height: 20px
+    }
+    .imgFechaAspas {
+        height: 20px
+    }
+    .divLineVaga {
+        flex-direction: column;
+        align-self: center;
+        margin: 0
+    }
+    .textSubTitleVaga {
+        font-size: 40px
+    }
+    .divVaga {
+        margin-bottom: 50px;
+        width: 310px;
+        height: 180px
+    }
+    .textVaga {
+        font-size: 22px
+    }
+    .btnFaleConosco {
+        font-size: 14px
+    }
+}

@@ -1,0 +1,571 @@
+.divTextBanner {
+    margin-right: 50px;
+    margin-left: 100px;
+    padding-bottom: 100px;
+    margin-top: 80px
+}
+
+.titleBanner {
+    font-family: 'Lalezar', cursive;
+    font-size: 80px;
+    margin-bottom: 0
+}
+
+.subTitleBanner {
+    font-family: 'Niramit', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 300px
+}
+
+.divSaibaMaisBanner {
+    text-align: center;
+    flex: 1;
+    margin-bottom: 30px
+}
+
+.textSaibaMaisBanner {
+    font-family: 'Lalezar', cursive;
+    font-size: 27px
+}
+
+.btnSaibaMais {
+    font-family: 'Niramit', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 15px 40px
+}
+
+.btnBodyActions:hover {
+    background-color: #FFDC97!important;
+    border-color: #FFDC97!important
+}
+
+.btnBodyActions:active {
+    background-color: #B07D17!important
+}
+
+.divVantagens {
+    flex: 1;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.divVantagem {
+    margin-right: 42px;
+    width: 100%;
+}
+
+.divImgTitleVantagem {
+    flex: 1;
+    display: inline-flex
+}
+
+.divTitleVantagem {
+    align-self: flex-end
+}
+
+.textTitleVantegem {
+    color: #074680;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 27px
+}
+
+.divDescVantegem {
+    border: 4px solid #BCACDA;
+    margin-top: -20px;
+    min-width: 100%;
+}
+
+.alt {
+    margin-bottom: -38px;
+    padding: 30px 0;
+}
+
+.alt2 {
+    margin-bottom: -30px;
+}
+
+.alt3 {
+    padding: 10px 0;
+}
+
+.textDescVantegem {
+    font-family: 'Niramit', sans-serif;
+    font-size: 20px;
+    padding: 25px;
+    padding-top: 30px;
+    text-align: center
+}
+
+.divBackgroundSuaIdeia {
+    background-image: linear-gradient(#6562CF, #3F4D79);
+    margin-top: 80px
+}
+
+.suaIdeia1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center
+}
+
+.divSuaIdeia {
+    flex: 1;
+    display: flex;
+    flex-direction: row
+}
+
+#carouselSuaIdeia a {
+    top: 10px;
+    bottom: 180px
+}
+
+.imgConsultoria {
+    margin-top: 50px
+}
+
+.flip-container {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    margin-left: 10px
+}
+
+.flipper {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform .8s;
+    position: relative
+}
+
+.flip-container:hover .flipper {
+    transform: rotateY(180deg)
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden
+}
+
+.back {
+    transform: rotateY(180deg)
+}
+
+.cardSuaIdeiaBorda {
+    border: solid #fff;
+    border-radius: 10px;
+    align-self: start;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-width: 6px 8px
+}
+
+.textSuaIdeiaCard {
+    font-family: 'Niramit', sans-serif;
+    font-size: 27px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 1rem
+}
+
+.subDivSuaIdeia {
+    display: flex;
+    flex-direction: column
+}
+
+.imgExperiencia {
+    margin-top: -30px;
+    align-self: start
+}
+
+.imgSuporte {
+    align-self: start;
+    margin-top: 20px
+}
+
+.imgDesenvolvimento {
+    align-self: start;
+    margin-top: 20px
+}
+
+.btnQuantoCusta {
+    margin-top: 150px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #FFFDFD;
+    font-weight: 600;
+    background-color: #F9AF1B;
+    align-self: flex-end;
+    margin-left: -200px
+}
+
+.suaIdeia2 {
+    display: none
+}
+
+.divParceiros1 {
+    margin-top: 80px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.divParceiros2 {
+    display: none
+}
+
+.divDepoimentosGroup1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+.divDepoimentosInLine {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 30px
+}
+
+.divDepoimento {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    height: 850px;
+    width: 30%;
+    background-color: #F4EFEF
+}
+
+.divTextDepoimentos {
+    min-height: 355px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.textDepoimentos {
+    font-family: 'Niramit', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center
+}
+
+.textSendDepoimentos {
+    font-family: 'Niramit', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700
+}
+
+#carouselDepoimentos1 .carousel-indicators {
+    margin-bottom: -60px
+}
+
+#carouselDepoimentos1 .carousel-indicators li {
+    height: 25px;
+    width: 25px;
+    border-radius: 200px;
+    margin: 0 8px;
+    border: 2px solid #074680;
+    background-color: transparent
+}
+
+#carouselDepoimentos1 .carousel-indicators li.active {
+    background-color: #074680
+}
+
+.divDepoimentosGroup2 {
+    display: none
+}
+
+.carousel-control-next {
+    right: 0;
+    bottom: auto;
+    top: 100px
+}
+
+.carousel-control-prev {
+    right: 0;
+    bottom: auto;
+    top: 100px
+}
+
+@media only screen and (max-width: 988px) {
+    .divBanner {
+        height: 392px
+    }
+    .divTextBanner {
+        margin-right: 50px;
+        margin-left: 30px;
+        padding-bottom: 5px;
+        margin-top: 30px
+    }
+    .titleBanner {
+        font-family: 'Lalezar', cursive;
+        font-size: 22px;
+        margin-bottom: -8px
+    }
+    .subTitleBanner {
+        font-family: 'Niramit', sans-serif;
+        font-size: 10.5px;
+        font-weight: 300;
+        margin-right: 0;
+        margin-top: 5px
+    }
+    .textSaibaMaisBanner {
+        font-family: 'Lalezar', cursive;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 30px
+    }
+    .btnSaibaMais {
+        font-weight: 500;
+        border-radius: 15px;
+        padding: 5px 30px;
+        font-size: 14px;
+        margin-top: -25px;
+        background-color: #F9AF1B
+    }
+    .divVantagens {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .divVantagem {
+        margin-right: 30px;
+    }
+    .divImgTitleVantagem {
+        flex: 1;
+        display: flex;
+        flex-direction: column
+    }
+    .divImgVantagem {
+        align-self: center;
+        margin-top: 30px;
+    }
+    .imgVantagem {
+        width: 100%;
+        height: 164px;
+    }
+    .divTitleVantagem {
+        align-self: center
+    }
+    .textTitleVantegem {
+        color: #074680;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 10px
+    }
+    .divDescVantegem {
+        border: 4px solid #BCACDA;
+        margin-top: 0;
+        min-width: 100%;
+        margin-bottom: 50px
+    }
+    .textDescVantegem {
+        padding-top: 30px;
+        margin-bottom: 0;
+        font-size: 16px
+    }
+    .divBackgroundSuaIdeia {
+        background-image: linear-gradient(#6562CF, #3F4D79);
+        margin-top: 50px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        text-align: -webkit-center
+    }
+    .suaIdeia1 {
+        display: none
+    }
+    .suaIdeia2 {
+        display: block
+    }
+    .titleSuaIdeia {
+        font-family: 'Niramit', sans-serif;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px
+    }
+    .imgSuaIdeia2 {
+        width: 295px;
+        height: 264px;
+        background-size: 90%;
+        background-position: center;
+        background-repeat: no-repeat
+    }
+    .textSuaIdeia {
+        font-family: 'Niramit', sans-serif;
+        font-size: 17px;
+        text-align: center;
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px
+    }
+    .btnQuantoCusta {
+        margin-top: 100px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px #FFFDFD;
+        font-weight: 600;
+        background-color: #F9AF1B;
+        align-self: center;
+        margin-left: 0
+    }
+    .divParceiros1 {
+        display: none
+    }
+    .divParceiros2 {
+        display: block
+    }
+    .divDepoimentosGroup1 {
+        display: none
+    }
+    .divDepoimento {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 0;
+        background-color: transparent;
+        width: auto
+    }
+    .divTextDepoimentos {
+        margin-top: 30px;
+        margin-bottom: 150px;
+        min-height: 275px
+    }
+    .divDepoimentosGroup2 {
+        display: block
+    }
+}
+
+@media only screen and (min-width: 989px) and (max-width: 1024px) {
+    .divBanner {
+        max-height: 392px
+    }
+    .divTextBanner {
+        margin-top: 20px
+    }
+    .divVantagens {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+        flex-direction: column;
+        margin-left: 30px
+    }
+    .divVantagem {
+        margin-right: 200px;
+        margin-left: 200px
+    }
+    .divImgTitleVantagem {
+        flex: 1;
+        display: flex;
+        flex-direction: column
+    }
+    .divImgVantagem {
+        align-self: center;
+        margin-top: 30px
+    }
+    .imgVantagem {
+        height: auto
+    }
+    .divTitleVantagem {
+        align-self: center
+    }
+    .textTitleVantegem {
+        color: #074680;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 27px;
+        margin-top: 15px;
+        margin-bottom: 10px
+    }
+    .divDescVantegem {
+        border: 4px solid #BCACDA;
+        margin-top: 0;
+        min-width: 100%;
+        margin-bottom: 50px
+    }
+    .textDescVantegem {
+        padding-top: 30px;
+        margin-bottom: 0;
+        font-size: 20px
+    }
+    .divBackgroundSuaIdeia {
+        background-image: linear-gradient(#6562CF, #3F4D79);
+        margin-top: 50px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        text-align: -webkit-center
+    }
+    .suaIdeia1 {
+        display: none
+    }
+    .suaIdeia2 {
+        display: block
+    }
+    .titleSuaIdeia {
+        font-family: 'Niramit', sans-serif;
+        font-size: 27px;
+        text-align: center;
+        margin-bottom: 50px
+    }
+    .imgSuaIdeia2 {
+        width: 443px;
+        height: 396px;
+        padding: 40px
+    }
+    .textSuaIdeia {
+        font-family: 'Niramit', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px
+    }
+    .divDepoimentosGroup1 {
+        display: none
+    }
+    .divDepoimento {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px
+    }
+    .divTextDepoimentos {
+        background-color: #C4C4C4;
+        margin: 30px 150px 150px
+    }
+    .textDepoimentos {
+        font-family: 'Niramit', sans-serif;
+        font-size: 20px;
+        padding: 20px;
+        text-align: justify
+    }
+    .divDepoimentosGroup2 {
+        display: block
+    }
+}

@@ -1,0 +1,59 @@
+.divBanner {
+    background-image: url('../assets/bannerHome.png');
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+    margin-right: 0;
+    padding-bottom: 150px
+}
+
+.logo {
+    width: 90px;
+    height: 115px;
+    margin-left: 30px
+}
+
+.iconMenu2 {
+    display: none
+}
+
+.btnNavActions {
+    color: #FFF;
+    font-weight: 500;
+    font-family: 'Niramit', sans-serif;
+    font-size: 18px
+}
+
+.btnNavActions:hover {
+    color: #FFB000!important
+}
+
+.btnLogin {
+    text-align: right
+}
+
+.btnLoginNav {
+    display: none
+}
+
+@media only screen and (max-width: 988px) {
+    .divBanner {
+        padding-bottom: 70px
+    }
+    .logo {
+        width: 39px;
+        height: 51px;
+        margin-left: 30px
+    }
+    .iconMenu {
+        display: none
+    }
+    .iconMenu2 {
+        display: block
+    }
+    .btnLogin {
+        display: none
+    }
+    .btnLoginNav {
+        display: block
+    }
+}

@@ -1,0 +1,223 @@
+.divEquipe {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-around
+}
+
+.divCardFoto1 {
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    margin-top: 50px;
+    border: 2px solid #000;
+    margin-bottom: 50px;
+    padding: 10px 10px 50px
+}
+
+.divCardFoto2 {
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+    margin-top: 50px;
+    border: 2px solid #000;
+    margin-bottom: 50px;
+    padding: 10px 10px 50px
+}
+
+.imgCard {
+    height: 250px
+}
+
+.divCarouselEquipe2 {
+    display: none
+}
+
+.imgHistoria {
+    width: 100%
+}
+
+.divMissao {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 150px
+}
+
+.textMissao {
+    font-family: 'Niramit', sans-serif;
+    font-size: 27px;
+    align-self: center;
+    width: 455px;
+    margin-right: 80px
+}
+
+.divDepoimentosGroup1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+.imgCarousel1 {
+    margin-left: -20px;
+    margin-top: -90px
+}
+
+.divDepoimentosInLine {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 30px
+}
+
+.divDepoimento {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    height: 795px;
+    width: 33%;
+    border-radius: 30px;
+    margin-top: 90px;
+    background-color: #f2f6f9
+}
+
+.divTextDepoimentos {
+    min-height: 355px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.textDepoimentos {
+    font-family: 'Niramit', sans-serif;
+    font-size: 22px;
+    padding: 10px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.textSendDepoimentos {
+    font-family: 'Niramit', sans-serif;
+    font-size: 22px;
+    padding: 10px;
+    text-align: left;
+    font-weight: 700
+}
+
+#carouselDepoimentos1 .carousel-indicators {
+    margin-bottom: -60px
+}
+
+#carouselDepoimentos1 .carousel-indicators li {
+    height: 25px;
+    width: 25px;
+    border-radius: 200px;
+    margin: 0 8px;
+    border: 2px solid #074680;
+    background-color: transparent
+}
+
+#carouselDepoimentos1 .carousel-indicators li.active {
+    background-color: #074680
+}
+
+.divDepoimentosGroup2 {
+    display: none
+}
+
+.divDepoimentosGroup2 .carousel-control-next {
+    right: 0;
+    bottom: auto;
+    top: 100px
+}
+
+.divDepoimentosGroup2 .carousel-control-prev {
+    right: 0;
+    bottom: auto;
+    top: 100px
+}
+
+.textFaleConosco {
+    font-family: 'Lalezar', cursive;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #060606
+}
+
+.btnFaleConosco {
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #FFFDFD;
+    font-weight: 600;
+    background-color: #F9AF1B;
+    align-self: flex-end
+}
+
+.btnBodyActions:hover {
+    background-color: #FFDC97!important;
+    border-color: #FFDC97!important
+}
+
+.btnBodyActions:active {
+    background-color: #B07D17!important
+}
+
+@media only screen and (max-width: 988px) {
+    .divCarouselEquipe1 {
+        display: none
+    }
+    .divCarouselEquipe2 {
+        display: block
+    }
+    .divCardFoto1 {
+        width: 80%
+    }
+    .divCardFoto2 {
+        width: 80%
+    }
+    .divMissao {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px
+    }
+    .textMissao {
+        width: auto;
+        margin-right: 0;
+        font-size: 18px;
+        padding: 0 30px;
+        text-align: center
+    }
+    .imgMissao {
+        width: 90%
+    }
+    .divDepoimentosGroup1 {
+        display: none
+    }
+    .divDepoimento {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        margin: 0 10px;
+        padding: 20px 0;
+        height: 990px
+    }
+    .divTextDepoimentos {
+        margin-top: 30px
+    }
+    .divDepoimentosGroup2 {
+        display: block
+    }
+    .textFaleConosco {
+        font-size: 22px
+    }
+    .btnFaleConosco {
+        font-size: 12px
+    }
+}
