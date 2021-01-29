@@ -26,6 +26,9 @@
     <link rel="stylesheet" href="../css/body.css">
     <link rel="stylesheet" href="../css/carreiras.css">
     <link rel="stylesheet" href="../css/footer.css">
+    
+    <!--jQuery para importação do header e do footer-->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 </head>
 
 <body>
@@ -300,40 +303,11 @@
     <!--Body end-->
 
     <!--Footer start-->
-    <div class="divFooter" style="background-image: url(../assets/footer.png);">
-        <div class="divConteudoFooter">
-            <address class="primeiroConteudoFooter">
-                <img src="../assets/logo.png" alt="" class="logoFooter">
-                <p class="text-white textFooter">
-                    AVENIDA PAULISTA, 171 - 4 ANDAR
-                </p>
-                <p class="text-white textFooter">
-                    BELA VISTA - SÃO PAULO - SP
-                </p>
-            </address>
-
-
-            <div class="containerSecund">
-                <p class="text-white textFooterSecund">
-                    ESCOLHA COMO QUER SER ATENDIDO
-                </p>
-                <div class="segundoConteudoFooter">
-                    <a href="https://api.whatsapp.com/send?phone=551130429855" target="_blank" style="text-decoration: none;">
-                        <i class="fab fa-whatsapp fa-3x" style="color:#FFF; margin-right: 50px;"></i>
-                    </a>
-                    <a href="https://www.facebook.com/PerithusTech/" target="_blank" style="text-decoration: none;">
-                        <i class="fab fa-facebook-f fa-3x" style="color:#FFF; margin-right: 50px;"></i>
-                    </a>
-                    <a href="https://www.instagram.com/perithus_tech/?hl=pt-br" target="_blank" style="text-decoration: none;">
-                        <i class="fab fa-instagram fa-3x" style="color:#FFF; margin-right: 50px;"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/company/perithus-tech" target="_blank" style="text-decoration: none;">
-                        <i class="fab fa-linkedin-in fa-3x" style="color:#FFF;"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div id="footer"></div>
+    <!--Importação do Footer-->
+    <script>
+        $("#footer").load("footer.html");
+    </script>
     <!--Footer end-->
 
     <!--Plugins-->
