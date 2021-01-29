@@ -1,5 +1,7 @@
 .divContainerForm {
-    margin: 0 50px;
+    padding: 50px 50px;
+    color: white;
+    background-color: #434F81;
 }
 
 .button-submit {
